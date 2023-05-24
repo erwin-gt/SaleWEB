@@ -1,0 +1,85 @@
+﻿@model IEnumerable<SaleWeb.Models.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Agregar Producto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Idproducto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dimensiones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.Idinventario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idcategoriaproducto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idproducto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dimensiones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Foto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Idinventario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idcategoriaproducto)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Idproducto }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.Idproducto}) |
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.Idproducto})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
