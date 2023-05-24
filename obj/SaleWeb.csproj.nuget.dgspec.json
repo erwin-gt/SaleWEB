@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\triun\\source\\repos\\SaleWeb\\SaleWeb\\SaleWeb.csproj": {}
+    "C:\\Users\\triun\\OneDrive\\Documentos\\GitHub\\SaleWeb\\SaleWeb\\SaleWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\triun\\source\\repos\\SaleWeb\\SaleWeb\\SaleWeb.csproj": {
+    "C:\\Users\\triun\\OneDrive\\Documentos\\GitHub\\SaleWeb\\SaleWeb\\SaleWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\triun\\source\\repos\\SaleWeb\\SaleWeb\\SaleWeb.csproj",
+        "projectUniqueName": "C:\\Users\\triun\\OneDrive\\Documentos\\GitHub\\SaleWeb\\SaleWeb\\SaleWeb.csproj",
         "projectName": "SaleWeb",
-        "projectPath": "C:\\Users\\triun\\source\\repos\\SaleWeb\\SaleWeb\\SaleWeb.csproj",
+        "projectPath": "C:\\Users\\triun\\OneDrive\\Documentos\\GitHub\\SaleWeb\\SaleWeb\\SaleWeb.csproj",
         "packagesPath": "C:\\Users\\triun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\triun\\source\\repos\\SaleWeb\\SaleWeb\\obj\\",
+        "outputPath": "C:\\Users\\triun\\OneDrive\\Documentos\\GitHub\\SaleWeb\\SaleWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
